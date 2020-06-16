@@ -1,6 +1,8 @@
 # Solutions to Exercises in **C++ Primer** 5th Edition
 
-This repo is the solutions to exercises in book [_C++ Primer_ (5th Edition)](http://www.informit.com/store/c-plus-plus-primer-9780321714114). All files except explicitly announced are under [Apache License](http://www.apache.org/licenses/LICENSE-2.0).
+This repo contains my solutions to exercises in the book [_C++ Primer_ (5th Edition)](http://www.informit.com/store/c-plus-plus-primer-9780321714114). All files except explicitly announced are under [Apache License](http://www.apache.org/licenses/LICENSE-2.0). I found this book is super helpful for entry-level C++ programmers like me :-). I hope you enjoy these solutions!
+
+Feel free to send a pull request or report an issue, and I would be more than happy to address it ASAP.
 
 ### Contents
 
@@ -32,7 +34,6 @@ This repo is the solutions to exercises in book [_C++ Primer_ (5th Edition)](htt
 [31](ch3/3.31.cpp)|[32](ch3/3.32.cpp)|[33](ch3/3.33.md)|[34](ch3/3.34.md)|[35](ch3/3.35.cpp)|[36](ch3/3.36.cpp)|[37](ch3/3.37.md)|[38](ch3/3.38.md)|[39](ch3/3.39.cpp)|[40](ch3/3.40.cpp)|
 [41](ch3/3.41.cpp)|[42](ch3/3.42.cpp)|[43](ch3/3.43.cpp)|[44](ch3/3.44.cpp)|[45](ch3/3.45.cpp)
 
-<!-- 
 #### Chapter 4 [Expressions](ch4)
 
  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
@@ -42,6 +43,7 @@ This repo is the solutions to exercises in book [_C++ Primer_ (5th Edition)](htt
 [21](ch4/4.21.cpp)|[22](ch4/4.22.cpp)|[23](ch4/4.23.cpp)|[24](ch4/4.24.md)|[25](ch4/4.25.md)|[26](ch4/4.26.md)|[27](ch4/4.27.cpp)|[28](ch4/4.28.cpp)|[29](ch4/4.29.cpp)|[30](ch4/4.30.md)|
 [31](ch4/4.31.cpp)|[32](ch4/4.32.cpp)|[33](ch4/4.33.md)|[34](ch4/4.34.md)|[35](ch4/4.35.cpp)|[36](ch4/4.36.cpp)|[37](ch4/4.37.cpp)|[38](ch4/4.38.md)
 
+<!-- 
 #### Chapter 5 [Statements](ch5)
 
  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
@@ -190,11 +192,17 @@ This repo is the solutions to exercises in book [_C++ Primer_ (5th Edition)](htt
 -->
 
 # To Be Clarified
-- page 96 3.11 Usage of auto in range based for loop, why the top level const is not ignored in this case?
+- [x] page 96 3.11 Usage of auto in range based for loop, why the top level const is not ignored in this case?
+
+> The reason is that in exercise 3.11 we explicitly specify we want a reference. The top-level `const` is kept if it is a reference to a constant variable. A similar example can be found in page 69. 
+
+- [ ] page 139 Advice: An important exception to the second rule occurs when the subexpression that changes the operand is itself the operand of another subexpression. Do not understand this. Example, `*++iter`.
+
 > TBD
 
-- page 139 Advice: An important exception to the second rule occurs when the subexpression that changes the operand is itself the operand of another subexpression. Do not understand this. Example, `*++iter`.
+- [ ] page 151 Why is the conditional operator is right associative, a little bit confused about this. Refer to exercise 4.24.
 > TBD
+
 
 
 <!---
