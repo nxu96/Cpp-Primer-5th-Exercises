@@ -43,7 +43,6 @@ Feel free to send a pull request or report an issue, and I would be more than ha
 [21](ch4/4.21.cpp)|[22](ch4/4.22.cpp)|[23](ch4/4.23.cpp)|[24](ch4/4.24.md)|[25](ch4/4.25.md)|[26](ch4/4.26.md)|[27](ch4/4.27.cpp)|[28](ch4/4.28.cpp)|[29](ch4/4.29.cpp)|[30](ch4/4.30.md)|
 [31](ch4/4.31.cpp)|[32](ch4/4.32.cpp)|[33](ch4/4.33.md)|[34](ch4/4.34.md)|[35](ch4/4.35.cpp)|[36](ch4/4.36.cpp)|[37](ch4/4.37.cpp)|[38](ch4/4.38.md)
 
-<!-- 
 #### Chapter 5 [Statements](ch5)
 
  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
@@ -52,6 +51,7 @@ Feel free to send a pull request or report an issue, and I would be more than ha
 [11](ch5/5.11.cpp)|[12](ch5/5.12.cpp)|[13](ch5/5.13.md)|[14](ch5/5.14.cpp)|[15](ch5/5.15.md)|[16](ch5/5.16.cpp)|[17](ch5/5.17.cpp)|[18](ch5/5.18.md)|[19](ch5/5.19.cpp)|[20](ch5/5.20.cpp)|
 [21](ch5/5.21.cpp)|[22](ch5/5.22.md)|[23](ch5/5.23.cpp)|[24](ch5/5.24.cpp)|[25](ch5/5.25.cpp)
 
+<!-- 
 #### Chapter 6 [Functions](ch6)
 
  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
